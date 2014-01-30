@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Internet Time",
+  "description": "This extension compiles the time you spend on each page and displays this in a time chart",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "sandbox": {
+  "pages": ["sandboxed.html"]
+  },
+  
+  "permissions": [
+    "<all_urls>",
+    "history"
+    
+    
+  ]
+  
+
+}
